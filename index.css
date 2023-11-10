@@ -1,0 +1,131 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkcyan;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* CSS for two-column layout */
+.image-info-container {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p {
+    padding: 20px;
+    /* Add padding to the paragraph */
+    background-color: #f0f0f0;
+    /* Set background color for a nice appearance */
+    border: 1px solid #ccc;
+    /* Add a border for extra styling */
+    font-size: 16px;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    max-width: 400px;
+    /* Limit the width of the paragraph */
+    margin: 0 auto;
+    /* Center the paragraph horizontally on the page */
+}
+
+
+.image {
+    flex: 1;
+    /* Image takes up half the width */
+    padding: 6%;
+    width: 100vw;
+    /* 100% of viewport width */
+    height: 100vh;
+    /* 100% of viewport height */
+    object-fit: cover;
+    /* Maintain image aspect ratio and cover 
+}
+
+.info {
+    flex: 1;
+    /* Info takes up half the width */
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Optionally, you can add a background color to the info side */
+}
+
+
+header {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 0cap;
+    text-size-adjust: 8px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+main {
+    padding: 20px;
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-piece {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.art-piece img {
+    max-width: 100%;
+}
+
+.art-piece h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.art-piece p {
+    margin: 5px 0;
+}
+
+
+button {
+    background-color: #007BFF;
+    text-size-adjust: 3px;
+    text-decoration: underline;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-sizing: border-box;
+
+}
+
+
+
+.section {
+    background-color: #8c3939;
+
+}
